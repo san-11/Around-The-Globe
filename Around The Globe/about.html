@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Around The Globe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,900;1,300;1,600;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blogs.html">BLOGS</a></li>
+                    <li><a href="dest.html">DESTINATIONS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <br>
+        <div class="text-box">
+            <h1>
+                ABOUT US
+            </h1>
+
+        </div>
+    </section>
+    <section class="abt">
+
+
+        <h4 style="color: rgb(39, 85, 8);"><br>Looking for something useful to read about travelling around the world? You’ve come to the right place.<br>Travel is the best kind of education so go get lost, even if it’s just outside your own doorstep!<br><br>Travel can seem like a daunting
+            subject with so much information available and, the longer you go away, the more things you seem to have to think about. I want to make planning your next gap year, family vacation, around the world, or backpacking trip simple and easy.<br>On
+            this page, you’ll find a curated list of the best articles on this site related to planning a trip – whether it’s a two week vacation to Italy, or a year-long trip around the world.<br><br> The tips are broken down into categories so you can
+            find the information you need fast and effectively.<br> Travel is more than just getting up and going. It’s about being knowledgeable so you can travel better, cheaper, and longer.<br>
+            <br> On this Website you will find links to articles I’ve written that deal with planning your trip and other general advice so your total vacation is as amazing as it can be. These articles are relevant to any trip – no matter how long it
+            is!
+            <br><br> Find here detailed insights,interesting travel tips and ideas and daily inspiration.
+        </h4>
+
+        <br>
+    </section>
+    <!-----------------FOOTER------------------>
+    <section id="footersect">
+        <div id="footer">
+            <div>
+                <h2>Around The Globe</h2>
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div>
+                <h2>Social Media:</h2>
+                <div class="icons">
+                    <i class="fa fa-facebook fa-2x"></i>
+                    <i class="fa fa-twitter fa-2x"></i>
+                    <i class="fa fa-youtube fa-2x"></i>
+                    <i class="fa fa-instagram fa-2x"></i>
+                </div>
+            </div>
+            <div>
+                <h2>Quick Links:</h2>
+                <div class="textcon">
+                    <a href="about.html">
+                        <h3>About US </h3>
+                    </a>
+                    <br>
+                    <a href="blogs.html">
+                        <h3>Travel Tips </h3>
+                    </a>
+                    <br>
+                    <a href="dest.html">
+                        <h3>Destinations </h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p>Website Created By Sanika Acharya</p>
+    </section>
+
+
+    <!-- loader  -->
+    <div class="loader-container">
+        <img src="./images/loader.gif" alt="">
+    </div>
+    <!-- custom js file link  -->
+    <script src="./load.js"></script>
+
+    <!--------------------JAVASCRIPT-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
